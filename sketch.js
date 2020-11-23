@@ -82,7 +82,7 @@ if(gameState==="play"){
   text("Score: " + score, 390, 100);
   fill("#ff5c33");
   textSize(19);
-  text("Don't get the score below or aove 9",50,50);
+  text("Don't get the score below or above 9",50,50);
   
       if (score>9){
       gameState="fat"}
